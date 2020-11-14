@@ -10,7 +10,9 @@ namespace ZTextAdventure
 
             while (Answer)
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Hello Welcome to my animal generator!");
+                Console.ResetColor();
 
                 Console.WriteLine("What is your favorite animal?");
                 string Animal = Console.ReadLine();
@@ -35,11 +37,14 @@ namespace ZTextAdventure
                         Console.WriteLine("Your animal is a " + Animal + "\nit is blue with 5 eyes \nand it has " + Legs + " legs \n");
                     }
 
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Would you like to generate another animal?");
+                    Console.ResetColor();
                     string Response = Console.ReadLine();
                     Response = Response.ToLower();
+                    
 
-                    if (Response == "yes")
+                if (Response == "yes")
                     {
                         Console.WriteLine();
                         Answer = true;
@@ -49,8 +54,10 @@ namespace ZTextAdventure
                     {
                         Console.WriteLine();
                         Answer = false;
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine("Thank you for using my animal generator!");
-                    }
+                        Console.ResetColor();
+                }
                 
             }
         }
