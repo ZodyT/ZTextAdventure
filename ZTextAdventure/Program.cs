@@ -13,28 +13,51 @@ namespace ZTextAdventure
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Hello Welcome to my animal generator!");
                 Console.ResetColor();
+                Console.WriteLine();
 
                 Console.WriteLine("What is your favorite animal?");
                 string Animal = Console.ReadLine();
 
-                Console.WriteLine("Pick a Color: Red or Blue?");
+                Console.WriteLine();
+
+                Console.Write("Pick a Color: ");
+                Console.ForegroundColor  = ConsoleColor.Yellow;
+                Console.Write("Yellow");
+                Console.ResetColor();
+                Console.Write(" or ");
+                Console.ForegroundColor = ConsoleColor.Blue;
+                Console.WriteLine("Blue");
+                Console.ResetColor();
+
                 string Color = Console.ReadLine();
                 Color = Color.ToLower();
 
-                    Console.WriteLine("Pick a random number.");
+                Console.WriteLine();
+
+                    Console.WriteLine("Pick a random number");
                     string Legs = Console.ReadLine();
                     Convert.ToInt32(Legs);
 
-                    Console.WriteLine("To Generate your animal press Enter");
+                Console.WriteLine();
+
+                Console.WriteLine("To Generate your animal press Enter");
                     Console.ReadLine();
 
-                    if (Color == "red")
+                    if (Color == "yellow")
                     {
-                        Console.WriteLine("Your animal is a " + Animal + "\nit is red with 1 eye \nand it has " + Legs + " legs \n");
+                    Console.Write("Your animal is a " + Animal + "\nit is ");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write("yellow");
+                    Console.ResetColor();
+                    Console.WriteLine(" with 1 eye \nand it has " + Legs + " legs \n");
                     }
                     else
                     {
-                        Console.WriteLine("Your animal is a " + Animal + "\nit is blue with 5 eyes \nand it has " + Legs + " legs \n");
+                    Console.Write("Your animal is a " + Animal + "\nit is ");
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.Write("blue");
+                    Console.ResetColor();
+                    Console.WriteLine(" with 5 eyes \nand it has " + Legs + " legs \n");
                     }
 
                     Console.ForegroundColor = ConsoleColor.Green;
@@ -54,9 +77,13 @@ namespace ZTextAdventure
                     {
                         Console.WriteLine();
                         Answer = false;
-                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.ForegroundColor = ConsoleColor.Cyan;
                         Console.WriteLine("Thank you for using my animal generator!");
                         Console.ResetColor();
+
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine();
                 }
                 
             }
