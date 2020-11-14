@@ -1,0 +1,13 @@
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\bin\Debug\netcoreapp3.1\ZTextAdventure.exe
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\bin\Debug\netcoreapp3.1\ZTextAdventure.deps.json
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\bin\Debug\netcoreapp3.1\ZTextAdventure.runtimeconfig.json
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\bin\Debug\netcoreapp3.1\ZTextAdventure.runtimeconfig.dev.json
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\bin\Debug\netcoreapp3.1\ZTextAdventure.dll
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\bin\Debug\netcoreapp3.1\ZTextAdventure.pdb
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\obj\Debug\netcoreapp3.1\ZTextAdventure.csprojAssemblyReference.cache
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\obj\Debug\netcoreapp3.1\ZTextAdventure.AssemblyInfoInputs.cache
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\obj\Debug\netcoreapp3.1\ZTextAdventure.AssemblyInfo.cs
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\obj\Debug\netcoreapp3.1\ZTextAdventure.csproj.CoreCompileInputs.cache
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\obj\Debug\netcoreapp3.1\ZTextAdventure.dll
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\obj\Debug\netcoreapp3.1\ZTextAdventure.pdb
+C:\Users\TorZo\Desktop\repos\ZTextAdventure\obj\Debug\netcoreapp3.1\ZTextAdventure.genruntimeconfig.cache

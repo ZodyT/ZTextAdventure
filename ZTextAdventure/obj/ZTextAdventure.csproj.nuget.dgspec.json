@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TorZo\\source\\repos\\ZTextAdventure\\ZTextAdventure.csproj": {}
+    "C:\\Users\\TorZo\\Desktop\\repos\\ZTextAdventure\\ZTextAdventure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TorZo\\source\\repos\\ZTextAdventure\\ZTextAdventure.csproj": {
+    "C:\\Users\\TorZo\\Desktop\\repos\\ZTextAdventure\\ZTextAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TorZo\\source\\repos\\ZTextAdventure\\ZTextAdventure.csproj",
+        "projectUniqueName": "C:\\Users\\TorZo\\Desktop\\repos\\ZTextAdventure\\ZTextAdventure.csproj",
         "projectName": "ZTextAdventure",
-        "projectPath": "C:\\Users\\TorZo\\source\\repos\\ZTextAdventure\\ZTextAdventure.csproj",
+        "projectPath": "C:\\Users\\TorZo\\Desktop\\repos\\ZTextAdventure\\ZTextAdventure.csproj",
         "packagesPath": "C:\\Users\\TorZo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TorZo\\source\\repos\\ZTextAdventure\\obj\\",
+        "outputPath": "C:\\Users\\TorZo\\Desktop\\repos\\ZTextAdventure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TorZo\\AppData\\Roaming\\NuGet\\NuGet.Config",
