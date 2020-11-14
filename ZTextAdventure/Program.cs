@@ -41,43 +41,44 @@ namespace ZTextAdventure
                     string Color = Console.ReadLine().ToLower();
 
 
-                    Console.WriteLine();
-                    Console.WriteLine("To Generate your animal press Enter");
-                    Console.ReadLine();
+
+
+                    if (Color == "yellow" || Color == "blue")
+                    {
+                        Console.WriteLine();
+                        Error = false;
 
                     if (Color == "yellow")
-                    {
-                        Console.WriteLine();
-                        Console.Write("Your animal is a " + Animal + "\nit is ");
-                        Console.ForegroundColor = ConsoleColor.Yellow;
-                        Console.Write("yellow");
-                        Console.ResetColor();
-                        Console.WriteLine(" with 1 eye \nand it has " + Legs + " legs \n");
+                        {
+                           // Console.WriteLine();
+                            Console.Write("Your animal is a " + Animal + "\nit is ");
+                            Console.ForegroundColor = ConsoleColor.Yellow;
+                            Console.Write("yellow");
+                            Console.ResetColor();
+                            Console.WriteLine(" with 1 eye \nand it has " + Legs + " legs \n");
+                        }
+
+                        else if (Color == "blue")
+                        {
+                           // Console.WriteLine();
+                            Console.Write("Your animal is a " + Animal + "\nit is ");
+                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Console.Write("blue");
+                            Console.ResetColor();
+                            Console.WriteLine(" with 5 eyes \nand it has " + Legs + " legs \n");
+                        }
                     }
 
-                    else if (Color == "blue")
-                    {
-                        Console.WriteLine();
-                        Console.Write("Your animal is a " + Animal + "\nit is ");
-                        Console.ForegroundColor = ConsoleColor.Blue;
-                        Console.Write("blue");
-                        Console.ResetColor();
-                        Console.WriteLine(" with 5 eyes \nand it has " + Legs + " legs \n");
-                    }
-
-                    else if (Color != "yellow" && Color != "blue")
+                    else //(Color != "yellow" && Color != "blue")
                     {
                         Console.WriteLine();
                         Console.WriteLine("Please try again");
                         Console.WriteLine();
                         Error = true;
                     }
-                    else //if (Color == "yellow" || Color == "blue")
-                    {
-                        //Console.WriteLine();
-                        //Error = false;
-                        continue;
-                    }
+                    //Console.WriteLine();
+                    //Console.WriteLine("To Generate your animal press Enter");
+                    //Console.ReadLine();
                 }
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Would you like to generate another animal?");
